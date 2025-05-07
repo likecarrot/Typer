@@ -1,0 +1,62 @@
+## CS样本网络记录逻辑顺序
+
+#### GET->http://xf.alyyx.com/api/get?code=2251e73a70b2a5639b70b5494d2970ca
+
+response->
+
+```json
+{
+
+  "code": 1,
+
+  "data": [
+
+​    {
+​      "id": 85,
+​      "ym": "http://nq.awsbz.com/4nq6zpborqlh_p240515.exe",
+​      "xm": "845411",
+​      "xm_state": 1,
+​      "t_s": "00:00",
+​      "t_e": "23:59",
+​      "state": 1,
+​      "num": 5
+​    },
+​    {
+​      "id": 83,
+​      "ym": "http://nq.awsbz.com/Launcher70.exe",
+​      "xm": "channel.591888.vip",
+​      "xm_state": 1,
+​      "t_s": "00:00",
+​      "t_e": "23:59",
+​      "state": 1,
+​      "num": 5
+​    }
+  ]
+}
+```
+
+发现了更多已经不可访问的域名,包括:
+
+```
+http://xf.alyyx.com/api/get?code=
+http://xf.liangqiqi.com/api/get?code=
+http://xf.ptonp.com/api/get?code=
+http://xf.nsji12045ghddf.com/api/get?code=
+http://xf.gjfgdg865hy.com/api/get?code=
+http://xf.jkldfgdrtf75cg.com/api/get?code=
+http://xf.rtyrg45dfd.com/api/get?code=
+http://xf.ettyufd9887126.com/api/get?code=
+http://xf.qeetgxfd87854.com/api/get?code=
+http://xf.lyyrrsfd8223.com/api/get?code=
+```
+
+其中->
+
+> "ym": "http://nq.awsbz.com/4nq6zpborqlh_p240515.exe",
+>
+> "ym": "http://nq.awsbz.com/Launcher70.exe",
+
+ym1:是一个CS远控
+
+ym2:应该是一个感染型病毒
+
